@@ -3,9 +3,13 @@
   align-items: center;
   gap: var(--logo-gap, 8px);
   font-family: 'Syne', sans-serif;
-  font-size: var(--logo-size, 1.1rem);
+  font-size: var(--logo-size, 1.4rem);
   font-weight: 600;
   letter-spacing: -0.01em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .logo-star {
