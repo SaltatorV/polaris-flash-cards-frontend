@@ -1,32 +1,31 @@
 .logo {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: var(--logo-gap, 8px);
   font-family: 'Syne', sans-serif;
-  font-size: 1.1rem;
+  font-size: var(--logo-size, 1.1rem);
   font-weight: 600;
   letter-spacing: -0.01em;
 }
 
 .logo-star {
-  color: #ffffff;
-  font-size: 1.45rem;
-  margin-bottom: 6px;
-}
-
-.logo p { margin: 0; }
-
-.polaris {
-  color: #e8eaf6;
+  color: #6d7adb;
+  font-size: 1.35em;
+  vertical-align: middle;
+  margin-bottom: 5px;
 }
 
 .logo-sep {
-  color: #7b80a8;
+  color: #6d7adb;
   font-weight: 300;
-  font-size: 1rem;
+  font-size: 1em;
 }
 
 .flashcards {
-  color: #7b80a8;
+  color: #6d7adb;
   font-weight: 400;
+}
+
+.polaris {
+  color: #e8eaf6;
 }
