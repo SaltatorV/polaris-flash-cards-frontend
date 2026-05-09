@@ -1,8 +1,6 @@
 import { Routes } from '@angular/router';
-import { Index } from './pages/index';
-import { Landing } from './pages/landing/landing';
+import { IndexLayoutComponent } from './components/layouts/index-layout-component/index-layout-component';
 
 export const routes: Routes = [
-  { path: '', component: Index },
-  { path: 'landing', component: Landing },
+  { path: '', component: IndexLayoutComponent },
 ];
