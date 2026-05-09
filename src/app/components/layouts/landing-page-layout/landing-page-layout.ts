@@ -4,9 +4,9 @@ import { LandingPageHeader } from "../../headers/landing-page-header/landing-pag
 @Component({
   selector: 'app-index-layout-component',
   imports: [LandingPageHeader],
-  templateUrl: './index-layout-component.html',
-  styleUrl: './index-layout-component.css',
+  templateUrl: './landing-page-layout.html',
+  styleUrl: './landing-page-layout.css',
 })
-export class IndexLayoutComponent {
+export class LandingPageLayout {
 
 }

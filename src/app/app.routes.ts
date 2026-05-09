@@ -1,6 +1,6 @@
 import { Routes } from '@angular/router';
-import { IndexLayoutComponent } from './components/layouts/index-layout-component/index-layout-component';
+import { LandingPageLayout } from './components/layouts/landing-page-layout/landing-page-layout';
 
 export const routes: Routes = [
-  { path: '', component: IndexLayoutComponent },
+  { path: '', component: LandingPageLayout },
 ];
