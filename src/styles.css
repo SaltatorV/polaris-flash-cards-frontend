@@ -1,7 +1,32 @@
 html, body {
     margin: 0;
     padding: 0;
-    background: rgba(8, 9, 15, 1);
+    background: var(--bg);
     height: 100%;
     width: none;
-} 
+}
+
+:root {
+  --bg: #08090f;
+  --bg-elevated: #0e1020;
+  --bg-card: #111428;
+  --bg-hover: #171a33;
+
+  --primary: #6d7adb;
+  --primary-hover: #7f8cff;
+  --primary-soft: rgba(109, 122, 219, 0.15);
+
+  --secondary: #4cc9f0;
+  --secondary-soft: rgba(76, 201, 240, 0.15);
+
+  --text-primary: #e8eaf6;
+  --text-secondary: #a7adcf;
+  --text-muted: #6b7190;
+
+  --success: #3ddc97;
+  --warning: #ffcc66;
+  --danger: #ff5c7a;
+
+  --border: rgba(255, 255, 255, 0.06);
+  --border-strong: rgba(255, 255, 255, 0.12);
+}
