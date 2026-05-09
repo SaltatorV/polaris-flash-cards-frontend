@@ -13,23 +13,23 @@
 }
 
 .logo-star {
-  color: #6d7adb;
+  color: var(--primary);
   font-size: 1.35em;
   vertical-align: middle;
   margin-bottom: 5px;
 }
 
 .logo-sep {
-  color: #6d7adb;
+  color: var(--primary);
   font-weight: 300;
   font-size: 1em;
 }
 
 .flashcards {
-  color: #6d7adb;
+  color: var(--primary);
   font-weight: 400;
 }
 
 .polaris {
-  color: #e8eaf6;
+  color: var(--text-primary);
 }
