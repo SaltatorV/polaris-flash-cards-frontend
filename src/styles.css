@@ -12,11 +12,12 @@ html, body {
   --bg-card: #111428;
   --bg-hover: #171a33;
 
-  --primary: #6d7adb;
-  --primary-hover: #7f8cff;
+  --primary: #626fd8;
+  --primary-hover: #4653bd;
   --primary-soft: rgba(109, 122, 219, 0.15);
 
-  --secondary: #4cc9f0;
+  --secondary: #3d48a6;
+  --secondary-hover: #333b88;
   --secondary-soft: rgba(76, 201, 240, 0.15);
 
   --text-primary: #e8eaf6;
