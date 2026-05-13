@@ -4,24 +4,11 @@
 
     <span class="toolbar-spacer"></span>
 
-    <a class="toolbar-btn" href="#home" mat-button routerLink="/home">
-      Home
-    </a>
+    <app-section-header-button text="Home" href="#home" />
+    <app-section-header-button text="About" href="#about" />
+    <app-section-header-button text="Contact" href="#contact" />
 
-    <a class="toolbar-btn" href="#about" mat-button routerLink="/about">
-      <span>About</span>
-    </a>
-
-    <a class="toolbar-btn" href="#contact" mat-button routerLink="/contact">
-      <span>Contact</span>
-    </a>
-
-    <a class="toolbar-btn" mat-button routerLink="/login">
-      <span>Register</span>
-    </a>
-
-    <a class="toolbar-btn" mat-button routerLink="/register">
-      <span>Login</span>
-    </a>
+    <app-header-button text="Register" routerLink="/register" />
+    <app-header-button text="Login" routerLink="/login" />
   </mat-toolbar-row>
 </mat-toolbar>
