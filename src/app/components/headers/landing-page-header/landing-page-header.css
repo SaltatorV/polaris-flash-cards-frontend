@@ -1,8 +1,9 @@
 .toolbar {
-  position: sticky;
+  position: fixed;
   display: flex;
   align-items: center;
   top: 0;
+  width: 100%;
   z-index: 1000;
   background: rgba(8, 9, 15, 1);
   backdrop-filter: blur(12px);
