@@ -12,11 +12,8 @@
       </p>
 
       <div class="hero-actions">
-        <app-button-primary text="Get Started" routerLink="/register" />
-
-        <a class="secondary-btn" href="#about">
-          Learn More
-        </a>
+        <app-button text="Get Started" route="/register" />
+        <app-button text="Learn More" route="/" fragment="about" variant="secondary"/>
       </div>
     </div>
 
@@ -83,7 +80,7 @@
       <p>Email</p>
 
       <h3>support@polaris.app</h3>
-      <app-button-primary text="Send Message" routerLink="mailto:support@polaris.app" />
+      <app-button text="Send Message" route="mailto:support@polaris.app" />
     </div>
   </section>
 </div>

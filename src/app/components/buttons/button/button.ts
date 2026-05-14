@@ -2,16 +2,18 @@ import {Component, Input} from '@angular/core';
 import {RouterLink} from '@angular/router';
 
 @Component({
-  selector: 'app-button-primary',
+  selector: 'app-button',
   imports: [
     RouterLink
   ],
-  templateUrl: './button-primary.html',
-  styleUrl: './button-primary.css',
+  templateUrl: './button.html',
+  styleUrl: './button.css',
 })
-export class ButtonPrimary {
-  @Input() routerLink: string = '#';
+export class Button {
+  @Input() route: string = '#';
+  @Input() fragment?: string;
   @Input() text: string = 'Link';
   @Input() type: 'button' | 'submit' = 'button';
   @Input() fullWidth = false;
+  @Input() variant: 'primary' | 'secondary' = 'primary';
 }

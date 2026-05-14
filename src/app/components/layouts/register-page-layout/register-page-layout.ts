@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import {ButtonPrimary} from "../../buttons/button-primary/button-primary";
+import {Button} from "../../buttons/button/button";
 
 @Component({
   selector: 'app-register-page-layout',
     imports: [
-        ButtonPrimary
+        Button
     ],
   templateUrl: './register-page-layout.html',
   styleUrl: './register-page-layout.css',
