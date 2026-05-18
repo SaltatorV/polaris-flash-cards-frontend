@@ -3,10 +3,11 @@ import { LandingPageHeader } from "../../headers/landing-page-header/landing-pag
 import {Button} from '../../buttons/button/button';
 import {BasicCard} from '../../cards/basic-card/basic-card';
 import {BasicCardGrid} from '../../cards/basic-card-grid/basic-card-grid';
+import {ButtonCard} from '../../cards/button-card/button-card';
 
 @Component({
   selector: 'app-index-layout-component',
-  imports: [LandingPageHeader, Button, BasicCard, BasicCardGrid],
+  imports: [LandingPageHeader, Button, BasicCard, BasicCardGrid, ButtonCard],
   templateUrl: './landing-page-layout.html',
   styleUrl: './landing-page-layout.css',
 })
