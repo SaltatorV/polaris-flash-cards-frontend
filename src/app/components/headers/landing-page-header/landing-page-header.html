@@ -1,14 +1,16 @@
-<mat-toolbar class="toolbar">
-  <mat-toolbar-row>
+<div class="header">
+  <div>
     <app-logo/>
+  </div>
 
-    <span class="toolbar-spacer"></span>
 
-    <app-section-header-button text="Home" href="#home" />
-    <app-section-header-button text="About" href="#about" />
-    <app-section-header-button text="Contact" href="#contact" />
+  <span class="header-spacer"></span>
+  <div>
+    <app-section-header-button text="Home" href="#home"/>
+    <app-section-header-button text="About" href="#about"/>
+    <app-section-header-button text="Contact" href="#contact"/>
 
-    <app-header-button text="Register" routerLink="/register" />
-    <app-header-button text="Login" routerLink="/login" />
-  </mat-toolbar-row>
-</mat-toolbar>
+    <app-header-button text="Register" routerLink="/register"/>
+    <app-header-button text="Login" routerLink="/login"/>
+  </div>
+</div>

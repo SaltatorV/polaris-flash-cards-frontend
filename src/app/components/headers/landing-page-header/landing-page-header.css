@@ -1,4 +1,6 @@
-.toolbar {
+
+
+.header {
   position: fixed;
   display: flex;
   align-items: center;
@@ -11,10 +13,9 @@
   border-bottom: 1px solid #ffffff0f;
 }
 
-.toolbar-spacer {
+.header-spacer {
   flex: 1 1 auto;
 }
-
 
 a span {
   margin-bottom: 10px;
