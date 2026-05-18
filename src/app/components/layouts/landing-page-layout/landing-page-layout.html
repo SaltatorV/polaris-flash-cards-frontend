@@ -37,16 +37,7 @@
       <h2>Everything You Need To Study More Effectively</h2>
     </div>
 
-    <div class="feature-cards-grid">
-      <app-basic-card header="Create Decks"
-                      text="Organize your study material into clean and structured flashcard collections."/>
-
-      <app-basic-card header="Review Daily"
-                      text="Build long-term memory with quick and distraction-free review sessions."/>
-
-      <app-basic-card header="Track Progress"
-                      text="Monitor your learning progress and focus on topics that need improvement."/>
-    </div>
+    <app-basic-card-grid [cards]="LandingPageLayout.CARDS"/>
   </section>
 
   <section id="contact" class="content-section contact-section">

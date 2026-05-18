@@ -144,7 +144,7 @@ h1 {
 /* CONTENT SECTIONS */
 
 .content-section {
-  padding: 140px 0;
+  padding: 60px 0;
 }
 
 .section-header {
@@ -158,13 +158,6 @@ h1 {
   line-height: 1.1;
 }
 
-/* FEATURES */
-
-.feature-cards-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 28px;
-}
 
 /* CONTACT */
 

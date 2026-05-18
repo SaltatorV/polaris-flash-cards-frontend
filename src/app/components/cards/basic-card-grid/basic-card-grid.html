@@ -1,0 +1,5 @@
+<div class="basic-card-grid">
+  @for (card of cards; track card.header) {
+    <app-basic-card [header]="card.header" [text]="card.text"/>
+  }
+</div>
