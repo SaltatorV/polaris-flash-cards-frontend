@@ -1,4 +1,4 @@
-<app-landing-page-header />
+<app-landing-page-header/>
 <div class="container">
   <section id="home" class="hero-section">
     <div class="hero-content">
@@ -12,7 +12,7 @@
       </p>
 
       <div class="hero-actions">
-        <app-button text="Get Started" route="/register" />
+        <app-button text="Get Started" route="/register"/>
         <app-button text="Learn More" route="/" fragment="about" variant="secondary"/>
       </div>
     </div>
@@ -37,30 +37,15 @@
       <h2>Everything You Need To Study More Effectively</h2>
     </div>
 
-    <div class="features-grid">
-      <article class="feature-card">
-        <h3>Create Decks</h3>
+    <div class="feature-cards-grid">
+      <app-basic-card header="Create Decks"
+                      text="Organize your study material into clean and structured flashcard collections."/>
 
-        <p>
-          Organize your study material into clean and structured flashcard collections.
-        </p>
-      </article>
+      <app-basic-card header="Review Daily"
+                      text="Build long-term memory with quick and distraction-free review sessions."/>
 
-      <article class="feature-card">
-        <h3>Review Daily</h3>
-
-        <p>
-          Build long-term memory with quick and distraction-free review sessions.
-        </p>
-      </article>
-
-      <article class="feature-card">
-        <h3>Track Progress</h3>
-
-        <p>
-          Monitor your learning progress and focus on topics that need improvement.
-        </p>
-      </article>
+      <app-basic-card header="Track Progress"
+                      text="Monitor your learning progress and focus on topics that need improvement."/>
     </div>
   </section>
 
@@ -80,7 +65,7 @@
       <p>Email</p>
 
       <h3>support@polaris.app</h3>
-      <app-button text="Send Message" route="mailto:support@polaris.app" />
+      <app-button text="Send Message" route="mailto:support@polaris.app"/>
     </div>
   </section>
 </div>
