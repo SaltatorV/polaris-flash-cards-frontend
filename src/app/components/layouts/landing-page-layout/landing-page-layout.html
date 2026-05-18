@@ -17,17 +17,13 @@
       </div>
     </div>
 
-    <div class="hero-card">
-      <span class="card-label">Today's Review</span>
-
-      <h3>Angular Basics</h3>
-
-      <p>24 flashcards • 82% mastery</p>
-
-      <div class="progress">
-        <div></div>
-      </div>
-    </div>
+    <app-progress-bar-card
+      label="Today's Review"
+      title="Angular Basics"
+      description="24 flashcards • 82% mastery"
+      [done]="19"
+      [total]="24"
+    />
   </section>
 
   <section id="about" class="content-section">
